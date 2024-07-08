@@ -1,0 +1,379 @@
+/* start general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Alegreya" "Alegreya Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 35px;
+    color: #686868;
+}
+
+h2,
+h3,
+h4 {
+    color: black;
+    font-size: 2rem;
+}
+
+.page {
+    height: 115vh;
+}
+
+.clr-fix {
+    clear: both;
+}
+
+/* end general styling */
+
+/* start welcome page styling */
+.welcome-page {
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.welcome-page .nav-bar {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.welcome-page .logo {
+    width: 15%;
+    float: left;
+}
+
+.welcome-page .logo img {
+    width: 100%;
+}
+
+.welcome-page .nav-list {
+    width: 40%;
+    float: right;
+    list-style-type: none;
+}
+
+.welcome-page .nav-list li {
+    float: left;
+    margin-right: 35px;
+}
+
+.welcome-page .nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome-page .container .welcome-page-contents {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+
+.welcome-page-contents p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.welcome-page-contents h1 {
+    margin-bottom: 20px;
+    font-weight: thin;
+    font-size: 50px;
+    font-family: "Alegreya";
+}
+
+.welcome-page .welcome-page-contents button {
+    padding: 15px 28px;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.welcome-page .welcome-page-contents .btn1 {
+    background-color: #8e7754;
+    margin-right: 5px;
+    border-color: transparent;
+
+}
+
+.welcome-page .welcome-page-contents .btn2 {
+    background-color: transparent;
+}
+
+/* end welcome page styling */
+
+/* start who we section */
+
+.container.sections {
+    padding-top: 100px;
+}
+
+.who-we .who-we-image {
+    width: 45%;
+    float: left;
+}
+
+.who-we img {
+    width: 100%;
+}
+
+.who-we .who-we-desc {
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+}
+
+.who-we-desc p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.who-we-desc .icon-list {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.who-we-desc .icon-list .icon {
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 40px;
+    float: left;
+}
+
+.who-we-desc .icon-list span {
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.who-we-list img {
+    width: 100%;
+}
+
+/* end who we section */
+
+/* start location section */
+
+.location {
+    background-color: #f8f8f8;
+}
+
+.location .location-desc {
+    width: 45%;
+    float: left;
+    padding-top: 100px;
+}
+
+.location .location-img {
+    width: 50%;
+    float: right;
+}
+
+.location .location-img img {
+    width: 100%;
+}
+
+.location-desc p {
+    padding-top: 20px;
+}
+
+/* end location section */
+
+/* start of our baking section */
+
+.baking .intro {
+    width: 100%;
+    text-align: center;
+}
+
+.baking .intro h3 {
+    padding-bottom: 20px;
+}
+
+.baking .intro p {
+    padding-bottom: 50px;
+}
+
+.baking h4 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.baking .food {
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin-left: 3.33%;
+}
+
+.baking img {
+    width: 100%;
+}
+
+/* end of our baking section */
+
+/* start of contact section */
+.contact {
+    background-color: f8f8f8;
+}
+
+.contact .contact-info {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.contact .contact-list {
+    margin-top: 10px;
+}
+
+.contact .contact-list .icon {
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 40px;
+    float: left;
+    background-color: #8e7754;
+}
+
+.contact .contact-list img {
+    width: 100%;
+}
+
+.contact .contact-list span {
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.contact .contact-info p {
+    padding-top: 20px;
+}
+
+.contact .map {
+    width: 40%;
+    float: right;
+    background-image: url(../images/contact-details-map.png);
+    height: 70vh;
+}
+
+/* end of contact section */
+
+/* start of footer */
+.footer {
+    background-color: #353330;
+    height: 125vh;
+}
+
+.big-container {
+    background-color: #403d38;
+}
+
+.footer-main {
+    margin-bottom: 50px;
+}
+
+.footer-main .contents {
+    /* background-color: red; */
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.footer-main .contents h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-main .col-1 p {
+    color: #969696;
+    margin-bottom: 20px;
+}
+
+.footer-main .contents p {
+    color: #969696;
+}
+
+.footer-main .contents .lines {
+    padding-bottom: 7px;
+    margin-bottom: 1px;
+    border-bottom: 1px #969696 solid;
+}
+
+.footer-main .contents .left {
+    margin-top: 15px;
+    width: 20px;
+    float: left;
+}
+
+.footer-main .contents .left.last {
+    margin-top: 10px;
+    width: 30px;
+    float: left;
+}
+
+.footer-main .contents .right a {
+    color: #969696;
+    text-decoration: none;
+}
+
+.footer-main .left img {
+    width: 100%;
+}
+
+.footer-main .contents .right {
+    float: left;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.footer-main .col-4 .contents .full-lines {
+    background-image: url(../images/contact-details-map.png);
+    /* opacity: 0.5; */
+}
+
+.footer-buttom {
+    padding-top: 70px;
+    text-align: center;
+    background-color: #353330;
+}
+
+.footer-buttom p {
+    margin: 20px 0;
+}
+
+.footer .div-container {
+    height: 50px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.footer .icon-div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer .icon {
+    float: left;
+    margin-right: 10px;
+    width: 45px;
+    background-color: #403d38;
+    border-radius: 50%;
+}
+
+.icon img {
+    width: 100%;
+}
+
+/* end of footer */
